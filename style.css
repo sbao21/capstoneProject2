@@ -1,0 +1,70 @@
+body {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.qc {
+    float: left;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.tiqc {
+    float: left;
+    padding-right: 20px;
+}
+
+.marines {
+    float: left;
+    padding-right: 20px;
+}
+
+.feature-row1 > ul {
+    font-weight: bold;
+    font-size: small;
+}
+
+.feature-row2 > ul {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.centered-list {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+.carousel-caption {
+    font-weight: bold;
+    color: black;
+}
+
+.footerShao {
+    margin: 0;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #7ED5F2, #84E6C9, #7EF28E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
